@@ -1,1 +1,1 @@
-TinDog Bootstrap-Website
+Tindog Bootstrap-Website
