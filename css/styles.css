@@ -48,6 +48,22 @@ p {
 
 
 
+
+/* Sections */
+
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+
+.white-section {
+    background-color: #fff;
+}
+
+
+
 /* Navigation Bar  */
 
 
@@ -86,15 +102,9 @@ p {
 
 /* Title Section */
 
-#title {
-    background-color: #ff4c68;
-    color: #fff;
-    text-align: left;
-    /* overflow: hidden; */
-}
-
 
 #title .container-fluid {
+    text-align: left;
     padding: 3% 15% 7%;
 }
 
@@ -116,7 +126,6 @@ p {
 
 
 #features {
-    background-color: #fff;
     position: relative;
 }
 
@@ -150,10 +159,8 @@ p {
 /* Testimonial Section */
 
 
-#testimonials {
-    
+#testimonials { 
     background-color: #ef8172;
-    color: #fff;
 }
 
 
@@ -200,17 +207,6 @@ p {
 
 .pricing-column {
     padding: 3% 2%;
-}
-
-
-
-
-/* cta section */
-
-
-#cta {
-    background-color: #ff4c68;
-    color: #fff;
 }
 
 
