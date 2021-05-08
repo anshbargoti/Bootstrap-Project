@@ -1,46 +1,51 @@
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Montserrat";
-}
-
-#title {
-    background-color: #ff4c68;
-    color: #fff;
-    /* overflow: hidden; */
+    text-align: center;
 }
 
 
-.container-fluid {
-    padding: 3% 15% 7%;
-}
-
-
-h1 {
-    font-family: "Montserrat";
-    font-weight: 900;    
-    font-size: 3.5rem;
-    line-height: 1.5;
-}
-
-
-h2 {
+h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat";
     font-weight: bold;
-    font-size: 3rem;
-    line-height: 1.5;
-}
-
-
-h3 {
-    font-family: "Montserrat";
-    font-weight: bold;
-    font-size: 1.4rem;
 }
 
 
 p {
     color: #8f8f8f;
 }
+
+
+
+/* Headings */
+
+
+.big-heading {
+    font-family: "Montserrat";
+    font-weight: 900;  
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+
+/* Containers */
+
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
 
 
 /* Navigation Bar  */
@@ -79,6 +84,21 @@ p {
 
 
 
+/* Title Section */
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+    /* overflow: hidden; */
+}
+
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+
 /* Title Image */
 
 .title-image {
@@ -96,14 +116,18 @@ p {
 
 
 #features {
-    padding: 7% 15%;
     background-color: #fff;
     position: relative;
 }
 
 
+
+.feature-title {
+    font-size: 1.4rem;
+}
+
+
 .feature-box {
-    text-align: center;
     padding: 4.5%;
 }
 
@@ -129,10 +153,14 @@ p {
 #testimonials {
     
     background-color: #ef8172;
-    text-align: center;
     color: #fff;
 }
 
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
 
 .testimonial-image {
     width: 10%;
@@ -141,14 +169,9 @@ p {
 }
 
 
-.carousel-item {
-    padding: 7% 15%;
-}
-
 
 #press {
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -166,7 +189,12 @@ p {
 
 #pricing {
     padding: 100px;
-    text-align: center;
+}
+
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 
@@ -174,3 +202,38 @@ p {
     padding: 3% 2%;
 }
 
+
+
+
+/* cta section */
+
+
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+
+
+/* footer section */
+
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+
+
+
+
+@media (max-width:1028px) {
+    
+    #title {
+        text-align: center;
+    }
+    
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
